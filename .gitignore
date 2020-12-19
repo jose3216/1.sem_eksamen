@@ -4,4 +4,8 @@
 /bower_components/
 /node_modules/
 *.DS_Store
+*.psd
+*.doc
+*.docx
+*.ai
 *.mp4
