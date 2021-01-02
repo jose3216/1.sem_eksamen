@@ -1,13 +1,15 @@
 window.addEventListener("load", sidenVises);
 
-function sidenVises() {}
+function sidenVises() {
+	document.querySelector("#planter").addEventListener("click", plantOpen)
+}
 
 function myFunction(x) {
 	x.classList.toggle("change");
 
 }
 //burgermenu åbner og lukker
-function myFunction() {
+function myFunction(x) {
 	document.querySelector("#myLinks").classList.remove("hide");
 
 	var x = document.getElementById("myLinks");
@@ -16,4 +18,12 @@ function myFunction() {
 	} else {
 		x.style.display = "block";
 	}
+}
+
+function plantOpen() {
+	console.log("plantOpen");
+	document.querySelector("#bund").classList.add("bundpostion");
+	document.querySelector("#top").classList.add("toppostion");
+
+
 }
