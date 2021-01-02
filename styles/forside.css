@@ -4,13 +4,6 @@ body {
 	max-height: 100%;
 }
 
-/*
-body {
-	background-color: #E6D9BC;
-}
-*/
-
-
 
 @font-face {
 	font-family: 'rakeslybook';
@@ -20,8 +13,22 @@ body {
 	font-style: normal;
 }
 
-
 /*Mobil*/
+#menu {
+	position: relative;
+	margin-top: -25em;
+}
+
+#menu a {
+	text-decoration: none;
+	font-size: 2em;
+	text-align: center;
+	display: block;
+	color: #2b2b2b;
+	line-height: 2em;
+
+}
+
 h1 {
 	color: #F0F0F2;
 	opacity: 70%;
@@ -29,7 +36,59 @@ h1 {
 	text-align: center;
 	font-family: 'rakeslybook';
 	line-height: 1em;
+	position: relative;
+	margin-top: -0.3em;
 }
+
+#planter {
+	position: relative;
+	margin-top: -12em;
+}
+
+#planter #top {
+	margin-top: -16em;
+}
+
+.toppostion {
+	animation-name: top_kf;
+	animation-duration: 3s;
+	animation-iteration-count:1;
+	animation-direction:alternate;
+	animation-timing-function:ease;
+		animation-fill-mode: both;
+}
+
+@keyframes top_kf {
+	0% {
+		transform: translateX(0) translateY(0);
+	}
+
+	100% {
+		transform: translateX(10vw) translateY(40vw) rotate(-20deg);
+	}
+
+}
+
+.bundpostion {
+	animation-name: bund_kf;
+	animation-duration: 3s;
+	animation-iteration-count:1;
+	animation-direction:alternate;
+	animation-timing-function:ease;
+		animation-fill-mode: both;
+}
+
+@keyframes bund_kf {
+	0% {
+		transform: translateX(0) translateY(0);
+	}
+
+	100% {
+		transform: translateX(-30vw) translateY(-60vw) rotate(-30deg);
+	}
+
+}
+
 
 /*Desktop*/
 @media only screen and (min-width: 680px) {

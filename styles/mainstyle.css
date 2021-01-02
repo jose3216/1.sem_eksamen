@@ -6,10 +6,18 @@ img {
 	max-width: 100%;
 }
 
+header {
+	padding-top: 0.5em;
+	position: relative;
+}
+
 /*Burgermenu*/
 #menuknap {
 	display: inline-block;
 	cursor: pointer;
+	padding-left: 16em;
+	position: absolute;
+	padding-top: 0.5em;
 }
 
 .bar1,
@@ -18,7 +26,7 @@ img {
 	width: 35px;
 	height: 5px;
 	background-color: #333;
-	margin: 6px 0;
+	margin: 5px 0;
 	transition: 0.4s;
 }
 
@@ -39,29 +47,33 @@ img {
 .topnav {
 	overflow: hidden;
 	position: relative;
+	/*	background-color: aqua;*/
 }
 
 .topnav #myLinks {
 	display: none;
+	text-align: right;
 }
 
 .topnav a {
 	text-decoration: none;
 	color: #b2b2b2;
-	font-size: 2em;
+	font-size: 1.5em;
 	display: block;
 	justify-content: space-around;
-	line-height: 2em;
+	padding: 0.7em;
 }
 
-.topnav :hover {
-	background-color: #f0f0f2;
-	font-size: 2.1em;
+#myLinks a:hover {
+	color: black;
+	font-size: 1.7em;
 }
 
 .active {
-	align-content: center;
 	color: aliceblue;
+	padding-top: 2em;
+	padding-left: 1em;
+
 }
 
 .hide {
