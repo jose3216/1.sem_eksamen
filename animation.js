@@ -22,6 +22,7 @@ function myFunction(x) {
 
 function plantOpen() {
 	console.log("plantOpen");
+	document.querySelector("#planter").classList.add("clickthrougth");
 	document.querySelector("#bund").classList.add("bundpostion");
 	document.querySelector("#top").classList.add("toppostion");
 
