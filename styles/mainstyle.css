@@ -12,12 +12,9 @@ header {
 }
 
 /*Burgermenu*/
-#menuknap {
+.burgermenu {
 	display: inline-block;
 	cursor: pointer;
-	padding-left: 16em;
-	position: absolute;
-	padding-top: 0.5em;
 }
 
 .bar1,
@@ -26,7 +23,7 @@ header {
 	width: 35px;
 	height: 5px;
 	background-color: #333;
-	margin: 5px 0;
+	margin: 6px 0;
 	transition: 0.4s;
 }
 
@@ -42,38 +39,6 @@ header {
 .change .bar3 {
 	-webkit-transform: rotate(45deg) translate(-8px, -8px);
 	transform: rotate(45deg) translate(-8px, -8px);
-}
-
-.topnav {
-	overflow: hidden;
-	position: relative;
-	/*	background-color: aqua;*/
-}
-
-.topnav #myLinks {
-	display: none;
-	text-align: right;
-}
-
-.topnav a {
-	text-decoration: none;
-	color: #b2b2b2;
-	font-size: 1.5em;
-	display: block;
-	justify-content: space-around;
-	padding: 0.7em;
-}
-
-#myLinks a:hover {
-	color: black;
-	font-size: 1.7em;
-}
-
-.active {
-	color: aliceblue;
-	padding-top: 2em;
-	padding-left: 1em;
-
 }
 
 .hide {

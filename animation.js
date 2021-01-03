@@ -4,7 +4,7 @@ function sidenVises() {
 	document.querySelector("#planter").addEventListener("click", plantOpen)
 }
 
-function myFunction(x) {
+function myFunction1(x) {
 	x.classList.toggle("change");
 
 }
@@ -22,7 +22,7 @@ function myFunction(x) {
 
 function plantOpen() {
 	console.log("plantOpen");
-	document.querySelector("#planter").classList.add("clickthrougth");
+	document.querySelector("#planter").classList.add("clickthrougth")
 	document.querySelector("#bund").classList.add("bundpostion");
 	document.querySelector("#top").classList.add("toppostion");
 
