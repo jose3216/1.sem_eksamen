@@ -31,10 +31,6 @@ body {
 	color: #99bfbf;
 }
 
-#section_one {
-	height: 100%;
-}
-
 h1 {
 	color: #F0F0F2;
 	opacity: 70%;
@@ -54,11 +50,12 @@ h1 {
 #planter {
 	position: relative;
 	margin-top: -12em;
+	cursor: pointer;
 }
 
 #planter #top {
 	margin-top: -16em;
-	animation-delay:
+
 }
 
 .toppostion {
