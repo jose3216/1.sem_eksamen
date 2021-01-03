@@ -10,19 +10,25 @@
 </head>
 <header>
 	<nav>
-		<a href="index.html" class="active"><img src="img/logo_blaa.svg" alt="Logo"></a>
-		<div class="burgermenu" onclick="myFunction1(this)">
-			<div class="bar1"></div>
-			<div class="bar2"></div>
-			<div class="bar3"></div>
-		</div>
+		<a href="index.html"><img src="img/logo_blaa.svg" alt="Logo"></a>
 
-		<li><a href="om_mig.html">Mød Jose</a></li>
-		<li><a href="oversigt.html">Projekter</a></li>
+		<span onclick="openNav()">
+			<div class="burgermenu" onclick="myFunction1(this)">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+			<div id="myNav" class="overlay">
 
-		<a href="javascript:void(0);" class="icon" onclick="myFunction1()">
-			<i class="fa fa-bars"></i>
-		</a>
+				<a href="om_mig.html">Mød Jose</a>
+				<a href="oversigt.html">Projekter</a>
+
+				<a href="javascript:void(0);" class="icon" onclick="myFunction1()" "closeNav()">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
+		</span>
+
 	</nav>
 </header>
 

@@ -9,15 +9,12 @@ function myFunction1(x) {
 
 }
 //burgermenu åbner og lukker
-function myFunction(x) {
-	document.querySelector("#myLinks").classList.remove("hide");
+function openNav() {
+	document.getElementById("myNav").style.height = "100%";
+}
 
-	var x = document.getElementById("myLinks");
-	if (x.style.display === "block") {
-		x.style.display = "none";
-	} else {
-		x.style.display = "block";
-	}
+function closeNav() {
+	document.getElementById("myNav").style.height = "0%";
 }
 
 function plantOpen() {
