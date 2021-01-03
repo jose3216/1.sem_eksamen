@@ -8,6 +8,27 @@
 	<link rel="stylesheet" href="styles/oversigt.css">
 	<title></title>
 </head>
+<header>
+	<nav>
+		<a href="index.html" id="logo"><img src="img/logo_blaa.svg" alt="Logo"></a>
+
+		<span onclick="openNav()">
+			<div class="burgermenu" onclick="myFunction1(this)">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+			<div id="myNav" class="overlay">
+				<a href="om_mig.html">Mød Jose</a>
+				<a href="oversigt.html">Projekter</a>
+				<a href="javascript:void(0);" class="icon" class="closebtn" onclick="myFunction1()" "closeNav()">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
+		</span>
+
+	</nav>
+</header>
 
 <body>
 
@@ -23,7 +44,6 @@
 				<img src="img/" alt="ikon">
 			</a>
 		</div>
-		<p id="adresse">Sankt Kjelds Plads 6, st. th. 2100 København Ø</p>
 		<p id="copyright">©Copyright. All rights reserved</p>
 	</footer>
 	<script src="animation.js"></script>
