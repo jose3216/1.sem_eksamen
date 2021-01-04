@@ -4,7 +4,6 @@ function sidenVises() {
 	document.querySelector("#planter").addEventListener("click", plantOpen)
 }
 
-
 //burgermenu åbner og lukker
 function openNav() {
 	document.getElementById("myNav").style.height = "100%";

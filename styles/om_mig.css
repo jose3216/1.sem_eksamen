@@ -1,0 +1,47 @@
+#skills {
+	padding-top: 10vw;
+	padding-bottom: 10vw;
+}
+
+
+#skills .sectionwrapper {
+	display: flex;
+	grid-gap: 20px;
+	padding: 5px;
+	overflow-x: scroll;
+}
+
+figure {
+	flex-grow: 1;
+	flex-basis: 50%;
+	flex-shrink: 0;
+}
+
+#skills .sectionwrapper figure {
+	background-color: #D0D3D9;
+	border-radius: 15px;
+	padding: 10px;
+}
+
+#skills .sectionwrapper p {
+	font-size: 1em;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+
+#skills figure img {
+	width: 31vw;
+	height: 37vw;
+	padding-left: 30px;
+	padding-bottom: 10px;
+
+}
+
+.pil {
+	width: 6vw;
+	height: 6vw;
+	position: relative;
+	top: -22vw;
+	left: 94vw;
+}

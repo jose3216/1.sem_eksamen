@@ -12,22 +12,22 @@
 	<nav>
 		<a href="index.html" id="logo"><img src="img/logo_blaa.svg" alt="Logo"></a>
 
-		<span onclick="openNav()">
-			<div class="burgermenu" onclick="myFunction1(this)">
-				<div class="bar1"></div>
-				<div class="bar2"></div>
-				<div class="bar3"></div>
-			</div>
-			<div id="myNav" class="overlay">
+		<div id="myNav" class="overlay">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<div>
 				<a href="om_mig.html">Mød Jose</a>
 				<a href="oversigt.html">Projekter</a>
-				<a href="javascript:void(0);" class="icon" class="closebtn" onclick="myFunction1()" "closeNav()">
-					<i class="fa fa-bars"></i>
-				</a>
 			</div>
+		</div>
+		<span onclick="openNav()" id="burgermenu">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
 		</span>
+
 	</nav>
 </header>
+
 
 <body>
 	<section id="splash">
@@ -36,10 +36,33 @@
 	</section>
 	<section id="om_jose">
 		<div id="jose_profil"><img src="" alt=""></div>
-		<h2>Hvem jeg er?</h2>
-		<p>alder: 25 <br>udannelse: Ba i idræt og sundhed ved SDU <br> multimediedesign ved KEA</p>
+		<div id="tekst">
+			<h2>Hvem jeg er?</h2>
+			<p>alder: 25 <br>udannelse: Ba i idræt og sundhed ved SDU <br> multimediedesign ved KEA</p>
+		</div>
 	</section>
+	<section id="skills">
+		<div class="sectionwrapper">
+			<figure>
+				<img src="img/html.svg" alt="" width="31" height="37">
+				<p>HTML</p>
+			</figure>
+			<figure>
+				<img src="img/css.svg" alt="kaffe bred" width="31" height="37">
+				<p>Basic CSS</p>
+			</figure>
 
+			<figure>
+				<img src="img/js.svg" alt="" width="31" height="37">
+				<p>Bacis JavaScript</p>
+			</figure>
+			<figure>
+				<img src="img/ps.svg" alt="" width="31" height="37">
+				<p>Basic Photoshop</p>
+			</figure>
+		</div>
+<!--		<img src="img/Pil@2x.png" alt="pil" class="pil" width="100" height="100">-->
+	</section>
 
 	<footer>
 		<div class="col">

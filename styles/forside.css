@@ -1,7 +1,6 @@
 body {
 	background-color: #D0D3D9;
 }
-
 /*Mobil*/
 #menu {
 	position: relative;
@@ -98,10 +97,12 @@ h1 {
 	margin-left: 42vw;
 	padding-bottom: 2vw;
 	transition: transform 1s;
+
 }
 
 #jose:hover {
 	transform: translate(0, -5vw);
+
 }
 
 /*Desktop*/

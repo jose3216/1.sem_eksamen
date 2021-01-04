@@ -6,6 +6,11 @@ img {
 	max-width: 100%;
 }
 
+body {
+	background-color: #f0f0f2;
+}
+
+
 /*====FONTE====*/
 
 /*Overskrift h1*/
@@ -21,19 +26,21 @@ h1 {
 	font-family: 'rakeslybook';
 }
 
+
+/*Burgermenu*/
 header {
 	padding-top: 0.5em;
 	position: static;
-
+	margin: 0;
 }
 
-/*Burgermenu*/
 #burgermenu {
 	display: inline;
 	cursor: pointer;
 	position: absolute;
 	padding-top: 0.5em;
 	padding-left: 15.7em;
+	margin-right: 10px;
 }
 
 .bar1,
@@ -68,7 +75,7 @@ header {
 	z-index: 1;
 	top: 0;
 	left: 0;
-	background-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(0, 0, 0, 0.6);
 	overflow-y: hidden;
 	transition: 0.5s;
 }
