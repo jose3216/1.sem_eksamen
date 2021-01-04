@@ -2,15 +2,6 @@ body {
 	background-color: #D0D3D9;
 }
 
-
-@font-face {
-	font-family: 'rakeslybook';
-	src: url('../font/rakesly/rakesly_bk-webfont.woff2') format('woff2'),
-		url('../font/rakesly/rakesly_bk-webfont.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-}
-
 /*Mobil*/
 #menu {
 	position: relative;
@@ -39,8 +30,9 @@ h1 {
 	font-family: 'rakeslybook';
 	line-height: 1em;
 	position: relative;
-	margin-top: 0em;
+	margin-top: -50px;
 	pointer-events: none;
+	z-index: -1;
 }
 
 .clickthrougth {
@@ -55,6 +47,7 @@ h1 {
 
 #planter #top {
 	margin-top: -16em;
+	pointer-events: none;
 
 }
 
@@ -98,6 +91,18 @@ h1 {
 
 }
 
+#jose {
+	width: 20vw;
+	height: 28vh;
+	margin-top: -52vw;
+	margin-left: 42vw;
+	padding-bottom: 2vw;
+	transition: transform 1s;
+}
+
+#jose:hover {
+	transform: translate(0, -5vw);
+}
 
 /*Desktop*/
 @media only screen and (min-width: 680px) {

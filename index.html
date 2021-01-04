@@ -12,20 +12,20 @@
 	<nav>
 		<a href="index.html" id="logo"><img src="img/logo_blaa.svg" alt="Logo"></a>
 
-		<span onclick="openNav()">
-			<div class="burgermenu" onclick="myFunction1(this)">
-				<div class="bar1"></div>
-				<div class="bar2"></div>
-				<div class="bar3"></div>
-			</div>
-			<div id="myNav" class="overlay">
+
+		<div id="myNav" class="overlay">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<div>
 				<a href="om_mig.html">Mød Jose</a>
 				<a href="oversigt.html">Projekter</a>
-				<a href="javascript:void(0);" class="icon" class="closebtn" onclick="myFunction1()" "closeNav()">
-					<i class="fa fa-bars"></i>
-				</a>
 			</div>
+		</div>
+		<span onclick="openNav()" id="burgermenu">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
 		</span>
+
 
 	</nav>
 </header>
@@ -34,15 +34,21 @@
 
 	<body>
 		<section id="section_one">
-			<h1>PORTEFOLIE <br>PORTEFOLIE <br> PORTEFOLIE <br>PORTEFOLIE</h1>
+			<span>
+				<h1>PORTEFOLIE <br>PORTEFOLIE <br> PORTEFOLIE <br>PORTEFOLIE</h1>
+			</span>
 		</section>
 		<section id="menu">
 			<li><a href="om_mig.html">Mød Jose</a></li>
 			<li><a href="oversigt.html">Projekter</a></li>
 		</section>
 		<section id="planter">
-			<div id="bund"><img src="img/bund.png" alt=""></div>
-			<div id="top"><img src="img/top.png" alt=""></div>
+			<div id="bund"><img src="img/bund.png" alt="">
+			</div>
+			<div id="jose"><img src="img/test_jose.png" alt="">
+			</div>
+			<div id="top"><img src="img/top.png" alt="">
+			</div>
 		</section>
 
 	</body>

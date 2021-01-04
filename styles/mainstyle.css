@@ -6,18 +6,34 @@ img {
 	max-width: 100%;
 }
 
+/*====FONTE====*/
+
+/*Overskrift h1*/
+@font-face {
+	font-family: 'rakeslybook';
+	src: url('../font/rakesly/rakesly_bk-webfont.woff2') format('woff2'),
+		url('../font/rakesly/rakesly_bk-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1 {
+	font-family: 'rakeslybook';
+}
+
 header {
 	padding-top: 0.5em;
-	position: relative;
+	position: static;
+
 }
 
 /*Burgermenu*/
-.burgermenu {
-	display: inline-block;
+#burgermenu {
+	display: inline;
 	cursor: pointer;
-	padding-left: 16em;
 	position: absolute;
 	padding-top: 0.5em;
+	padding-left: 15.7em;
 }
 
 .bar1,
@@ -44,6 +60,7 @@ header {
 	transform: rotate(45deg) translate(-8px, -8px);
 }
 
+
 .overlay {
 	height: 0%;
 	width: 100%;
@@ -54,14 +71,6 @@ header {
 	background-color: rgba(0, 0, 0, 0.4);
 	overflow-y: hidden;
 	transition: 0.5s;
-}
-
-.overlay-content {
-	position: relative;
-	top: 25%;
-	width: 100%;
-	text-align: center;
-	margin-top: 30px;
 }
 
 .overlay a {
@@ -83,14 +92,15 @@ header {
 
 .overlay .closebtn {
 	position: absolute;
-	top: 20px;
-	right: 45px;
+	top: -12px;
+	right: 5.4px;
 	font-size: 60px;
 }
 
+
 #logo {
 	padding-top: 2em;
-	padding-left: 0.7em;
+	padding-left: 1em;
 
 }
 
