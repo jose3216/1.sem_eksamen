@@ -1,6 +1,7 @@
 body {
 	background-color: #D0D3D9;
 }
+
 /*Mobil*/
 #menu {
 	position: relative;
@@ -23,7 +24,7 @@ body {
 
 h1 {
 	color: #F0F0F2;
-	opacity: 70%;
+	opacity: 25%;
 	font-size: 10em;
 	text-align: center;
 	font-family: 'rakeslybook';

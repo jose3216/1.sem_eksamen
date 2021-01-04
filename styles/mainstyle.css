@@ -24,8 +24,28 @@ body {
 
 h1 {
 	font-family: 'rakeslybook';
+	font-size: 50px;
+	text-align: center;
 }
 
+h2 {
+	font-family: 'rakeslybook';
+	font-size: 30px;
+}
+
+h3 {
+	font-family: 'Libre Caslon Display', serif;
+	font-size: 24px;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+
+section {
+	margin: auto 0;
+}
 
 /*Burgermenu*/
 header {

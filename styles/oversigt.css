@@ -1,0 +1,38 @@
+#start {
+	background-image: url(../img/bund.png);
+	Background-size: cover;
+	Background-position: 25% 10%;
+	position: absolute;
+	width: 100vw;
+	height: 100vw;
+	margin-top: -16vw;
+	z-index: -1;
+}
+
+header {
+	margin: 0;
+}
+
+h1 {
+	margin-top: 30vw;
+	position: relative;
+	color: #e6d9bc;
+}
+
+#oversigt {
+	margin-top: 100vw;
+}
+
+/*Desktop*/
+@media only screen and (min-width: 680px) {
+
+	#tema img {
+		filter: grayscale(1);
+		transform: scale(0.7);
+	}
+
+	#tema img:hover {
+		filter: grayscale(0);
+		transform: scale(1);
+	}
+}
