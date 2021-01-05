@@ -1,0 +1,13 @@
+#section_1 {
+	background-image: url("../img/tema3.png");
+	position: fixed;
+	background-size: cover;
+	width: 100%;
+	height: 50%;
+	background-position: 50% 100%;
+	filter: grayscale(1);
+}
+
+#temaer .three {
+	font-style: oblique;
+}
