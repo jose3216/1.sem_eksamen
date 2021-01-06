@@ -9,9 +9,14 @@ body {
 }
 
 /*Mobil*/
+
+.hide {
+	visibility: hidden;
+}
+
 #menu {
 	position: relative;
-	margin-top: -24em;
+	margin-top: -60em;
 }
 
 #menu a {
@@ -31,16 +36,16 @@ body {
 h1 {
 	color: #f0f0f2;
 	opacity: 25%;
-	font-size: 147px;
+	font-size: 274px;
 	text-align: left;
 	position: relative;
 	margin-top: -50px;
 	pointer-events: none;
 	z-index: -1;
 	word-break: break-all;
-	letter-spacing: 6px;
+	letter-spacing: 4px;
 	line-height: 1;
-	width: 2.5em;
+	width: 2em;
 	text-transform: uppercase;
 }
 

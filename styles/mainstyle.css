@@ -108,6 +108,12 @@ nav {
 	display: block;
 	transition: 0.3s;
 	position: relative;
+	line-height: 56px;
+	padding-top: 20px;
+}
+
+#burgermenu li a:hover {
+	color: #99bfbf;
 }
 
 .on {
@@ -116,7 +122,7 @@ nav {
 	right: 0;
 	top: 4.5rem;
 	bottom: 10px;
-	background: rgba(225, 225, 225, 0.6);
+	background: rgba(237, 246, 249, 0.6);
 	display: flex;
 	z-index: 1;
 	flex-direction: column;
@@ -124,22 +130,6 @@ nav {
 
 }
 
-@media only screen and (min-width: 600px) {
-	#burgermenuknap {
-		display: none;
-	}
-
-	#burgermenu.hidden {
-		transform: translateX(0);
-		opacity: 1;
-
-	}
-
-	#burgermenu li {
-		display: inline-block;
-	}
-
-}
 
 /*Temaer*/
 #temaer {
@@ -206,6 +196,24 @@ footer p {
 	padding-top: 20px;
 }
 
+
+@media only screen and (min-width: 600px) {
+	#burgermenuknap {
+		display: none;
+	}
+
+	#burgermenu.hidden {
+		transform: translateX(0);
+		opacity: 1;
+
+	}
+
+	#burgermenu li {
+		display: inline-block;
+		padding: 1.7em;
+		text-align: center;
+	}
+}
 
 /*Desktop*/
 /*
