@@ -7,31 +7,26 @@
 
 	<!--Font-->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Montserrat&family=Oswald:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Montserrat&display=swap" rel="stylesheet">
 
 	<!--Stylesheet-->
 	<link rel="stylesheet" href="styles/mainstyle.css">
 	<link rel="stylesheet" href="styles/forside.css">
-	<title>Portefolie</title>
+	<title>Portfolio</title>
 </head>
 <header>
+
 	<nav>
-		<a href="index.html" id="logo"><img src="img/logo_blaa.svg" alt="Logo"></a>
+		<div id="burgermenuknap">☰</div>
+		<ul id="burgermenu" class="hidden">
 
-		<div id="myNav" class="overlay">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-			<div>
-				<a href="om_mig.html">Mød Jose</a>
-				<a href="oversigt.html">Projekter</a>
-			</div>
-		</div>
-		<span onclick="openNav()" id="burgermenu">
-			<div class="bar1"></div>
-			<div class="bar2"></div>
-			<div class="bar3"></div>
-		</span>
+			<li><a href="om_mig.html">Mød Jose</a></li>
 
+			<li><a href="oversigt.html">Projekter</a></li>
+		</ul>
+		<div class="logo"><a href="index.html"><img src="img/logo_blaa.svg" alt="Logo"></a></div>
 	</nav>
+
 </header>
 
 <main>
@@ -39,7 +34,7 @@
 	<body>
 		<section id="section_one">
 			<span>
-				<h1>PORTEFOLIE <br>PORTEFOLIE <br> PORTEFOLIE <br>PORTEFOLIE</h1>
+				<h1>PORTFOLIO <br>PORTFOLIO</h1>
 			</span>
 		</section>
 		<section id="menu">
@@ -49,10 +44,8 @@
 		<section id="planter">
 			<div id="bund"><img src="img/bund.png" alt="">
 			</div>
-			<span>
-				<div id="jose"><img src="img/test_jose.png" alt="">
-				</div>
-			</span>
+			<div id="jose"><img src="img/test_jose.png" alt="">
+			</div>
 			<div id="top"><img src="img/top.png" alt="">
 			</div>
 		</section>

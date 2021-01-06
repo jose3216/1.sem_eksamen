@@ -1,0 +1,34 @@
+h1 {
+	color: #274157;
+	padding-left: 10rem;
+}
+h2 {
+	background-color: #E4F8F6;
+	font-size: 1.2rem;
+}
+nav a {
+	font-size: 1.4rem;
+	font-weight: bold;
+	text-decoration: none;
+	color: #274157;
+	margin-right: 2em;
+	padding-left: 4em;
+}
+section {
+	background-color: #E4F8F6;
+	padding: 1em;
+	margin-bottom: 1em;
+	margin: 1em;
+}
+section p {
+	font-size: 1em;
+}
+#spilelementer img {
+	max-width: 30%;
+}
+#uielementer img {
+	max-width: 15%;
+}
+#screens img {
+	max-width: 100%;
+}

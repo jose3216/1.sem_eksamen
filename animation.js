@@ -2,17 +2,22 @@ window.addEventListener("load", sidenVises);
 
 function sidenVises() {
 	document.querySelector("#planter").addEventListener("click", plantOpen)
+	document.querySelector("#burgermenuknap").addEventListener("click", toggleMenu);
 }
 
 //burgermenu åbner og lukker
-function openNav() {
-	document.getElementById("myNav").style.height = "100%";
-	document.querySelector("#burgermenu").classList.add("change");
-}
+function toggleMenu() {
+	console.log("toggleMenu");
+	document.querySelector("#burgermenu").classList.toggle("hidden");
+	document.querySelector("#burgermenu").classList.toggle("on");
 
-function closeNav() {
-	document.getElementById("myNav").style.height = "0%";
-	document.querySelector("#burgermenu").classList.remove("change");
+	let erSkjult = document.querySelector("#burgermenu").classList.contains("hidden");
+
+	if (erSkjult == true) {
+		document.querySelector("#burgermenuknap").textContent = "☰";
+	} else {
+		document.querySelector("#burgermenuknap").textContent = "x";
+	}
 }
 
 function plantOpen() {
