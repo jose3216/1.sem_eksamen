@@ -1,7 +1,6 @@
 window.addEventListener("load", sidenVises);
 
 function sidenVises() {
-	document.querySelector("#planter").addEventListener("click", plantOpen)
 	document.querySelector("#burgermenuknap").addEventListener("click", toggleMenu);
 }
 
