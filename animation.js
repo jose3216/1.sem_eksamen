@@ -25,6 +25,4 @@ function plantOpen() {
 	document.querySelector("#bund").classList.add("bundpostion");
 	document.querySelector("#top").classList.add("toppostion");
 	document.querySelector("#jose").classList.add("hide");
-
-
 }

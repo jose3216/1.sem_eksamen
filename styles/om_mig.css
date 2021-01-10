@@ -1,3 +1,18 @@
+nav {
+	background-color: #F0F0F2;
+}
+
+#splash {
+	position: relative;
+	padding: 30px;
+	background-color: #F0F0F2;
+}
+
+h1 {
+	margin-top: -10vw;
+	margin-bottom: 10vw;
+}
+
 #skills {
 	padding-top: 10vw;
 	padding-bottom: 10vw;
@@ -9,6 +24,7 @@
 	grid-gap: 20px;
 	padding: 5px;
 	overflow-x: scroll;
+	margin-bottom: 20px;
 }
 
 figure {
@@ -18,7 +34,7 @@ figure {
 }
 
 #skills .sectionwrapper figure {
-	background-color: #e29578;
+	background-color: #e6d9bc;
 	border-radius: 15px;
 	padding: 10px;
 }
@@ -58,6 +74,7 @@ figure {
 	transform: scaleX(-1);
 	grid-column-start: 1;
 	grid-column-end: 2;
+	margin-top: -12vw;
 }
 
 #teskt {

@@ -1,13 +1,90 @@
 #section_1 {
+	/*
 	background-image: url("../img/tema3.png");
 	position: absolute;
+*/
 	background-size: cover;
 	width: 100%;
 	height: 50%;
 	background-position: 50% 100%;
 	filter: grayscale(1);
+	top: 0em;
+	z-index: -1;
+}
+
+
+.hide {
+	visibility: hidden;
+}
+
+#temaer {
+	top: 20em;
 }
 
 #temaer .three {
 	font-style: oblique;
+}
+
+#pitch {
+	position: relative;
+	display: block;
+	top: 25em;
+}
+
+#pitch h2 {
+	text-align: center;
+}
+
+#pitch .slide_container {
+	box-sizing: border-box;
+	position: relative;
+	text-align: center;
+	max-width: 730px;
+	position: relative;
+	margin: auto;
+	display: flex;
+	overflow-x: scroll;
+	gap: 10px;
+}
+
+.slides {
+	width: 200%;
+}
+
+
+.shiftbutton {
+	position: absolute;
+}
+
+footer {
+	top: 200vw;
+}
+
+/*Tablet*/
+@media only screen and (min-width:600px) {}
+
+
+/*Desktop*/
+@media only screen and (min-width: 800px) {
+	#section_1 {
+		height: 80%;
+		background-position: 100% 100%;
+	}
+
+	#temaer {
+		top: 35em;
+	}
+
+	#pitch {
+		top: 45em;
+	}
+
+	#pitch .slides {
+		width: 300%;
+	}
+
+	#pitch .slide_container {
+		max-width: 730px;
+
+	}
 }
