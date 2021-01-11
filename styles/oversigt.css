@@ -1,22 +1,31 @@
+nav {
+	background-color: antiquewhite;
+}
+
 #start {
-	background-image: url(../img/bund.png);
 	Background-size: cover;
 	Background-position: 25% 10%;
 	position: absolute;
 	width: 100vw;
-	height: 100vw;
-	margin-top: -16vw;
-	z-index: -1;
+	height: 35vw;
+	background-color: antiquewhite;
 }
 
 header {
 	margin: 0;
 }
 
-h1 {
-	margin-top: 30vw;
+#headline {
 	position: relative;
-	color: #e6d9bc;
+	font-size: 30px;
+	text-align: center;
+	top: 8.4rem;
+	font-family: cursive;
+}
+
+h1 {
+	margin-top: 0vw;
+	position: relative;
 	padding: 10px;
 }
 
@@ -34,49 +43,66 @@ p {
 }
 
 #oversigt {
-	margin-top: 85vw;
-	/*	background-color: #f0f0f2;*/
+	margin-top: 15rem;
+	/*		background-color: #f0f0f2;*/
 }
 
-#tema {
+.tema {
 	padding: 10px;
 	margin-bottom: 50px;
 }
 
-#beskrivelse {
+.beskrivelse {
 	margin-bottom: 20px;
 }
 
 
+@media only screen and (min-width: 680px) {}
+
 /*Desktop*/
-@media only screen and (min-width: 680px) {
-	/*
+@media only screen and (min-width: 800px) {
+	#start {
+		height: 30%;
+	}
+
 	#oversigt {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		grid-template-rows: repeat(4, 1fr);
+		top: 20rem;
 	}
-*/
 
-	#tema {
+	.tema {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
 
-	#image h2 {
+	.image {
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.beskrivelse {
+		position: relative;
+		top: 7vw;
+		grid-column-start: 2;
+		grid-column-end: 3;
+	}
+
+	.image h2 {
 		position: relative;
 		z-index: 1;
 		left: 5vw;
 		top: 20vw;
 		color: #fff;
+		background-color: fuchsia;
+		width: 6vw;
+		padding: 5px;
 	}
 
-	#tema img {
+	.tema img {
 		filter: grayscale(1);
 		transform: scale(0.7);
 	}
 
-	#tema img:hover {
+	.tema img:hover {
 		filter: grayscale(0);
 		transform: scale(0.8);
 	}

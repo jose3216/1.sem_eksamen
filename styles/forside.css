@@ -195,7 +195,7 @@ footer {
 		}
 
 		#jose:hover {
-			transform: translate(0, -5vw);
+			transform: translateY(-5vw);
 		}
 
 		#planter #top {

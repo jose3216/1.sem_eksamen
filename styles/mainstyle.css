@@ -38,6 +38,7 @@ h2 {
 	font-family: 'rakeslybook';
 	font-size: 30px;
 	padding-bottom: 10px;
+	padding-left: 10px;
 }
 
 h3 {
@@ -49,7 +50,7 @@ h3 {
 p {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
-	line-height: 19px
+	line-height: 22px
 }
 
 section {
@@ -155,22 +156,26 @@ nav {
 }
 
 .two:hover {
-	border-bottom: solid #99bfbf;
+	border-bottom: solid rgba(221, 190, 161);
+	;
 	transition: .2s ease-in-out;
 }
 
 .three:hover {
-	border-bottom: solid #99bfbf;
+	border-bottom: solid rgba(221, 190, 161);
+	;
 	transition: .2s ease-in-out;
 }
 
 .four:hover {
-	border-bottom: solid #99bfbf;
+	border-bottom: solid rgba(221, 190, 161);
+	;
 	transition: .2s ease-in-out;
 }
 
 .five:hover {
-	border-bottom: solid #99bfbf;
+	border-bottom: solid rgba(221, 190, 161);
+	;
 	transition: .2s ease-in-out;
 }
 

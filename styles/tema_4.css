@@ -1,11 +1,15 @@
 #section_1 {
-	background-image: url("../img/tema4.png");
 	position: absolute;
 	background-size: cover;
 	width: 100%;
-	height: 50%;
-	background-position: 0% 100%;
-	filter: grayscale(1);
+	/*	height: 20%;*/
+	background-position: 50% 100%;
+	top: 10rem;
+	z-index: -1;
+}
+
+#temaer {
+	top: 10rem;
 }
 
 #temaer .four {
@@ -43,6 +47,22 @@
 	height: 300px;
 }
 
+#spil {
+	position: relative;
+	top: 100vw;
+}
+
+#vid_spil {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 10px;
+}
+
+video {
+	width: 90%;
+}
+
+
 /*TABLET*/
 @media only screen and (min-width: 600px) {
 	#assetliste {
@@ -58,5 +78,9 @@
 
 	.mindre img {
 		height: 450px;
+	}
+
+	#spil {
+		top: 35vw;
 	}
 }
