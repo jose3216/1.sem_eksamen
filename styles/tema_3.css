@@ -1,13 +1,10 @@
 #section_1 {
-	/*
-	background-image: url("../img/tema3.png");
+	background-image: url("../img/top.png");
 	position: absolute;
-*/
 	background-size: cover;
 	width: 100%;
 	height: 50%;
 	background-position: 50% 100%;
-	filter: grayscale(1);
 	top: 0em;
 	z-index: -1;
 }
@@ -18,50 +15,148 @@
 }
 
 #temaer {
-	top: 20em;
+	position: relative;
+	top: 10em;
 }
 
 #temaer .three {
 	font-style: oblique;
 }
 
+* {
+	box-sizing: border-box
+}
+
+/*Collage*/
+#ide {
+	position: relative;
+	top: 15em;
+	margin-left: 5px auto;
+
+}
+
+#collage {
+	padding: 20px;
+	position: relative;
+	margin-top: 3em;
+	margin-bottom: 60px;
+	border-radius: 20px;
+
+}
+
+#collage img {
+	width: 100%;
+}
+
+
+/*Pitch som slideshow*/
 #pitch {
 	position: relative;
-	display: block;
-	top: 25em;
+	top: 15em;
 }
 
-#pitch h2 {
-	text-align: center;
-}
 
-#pitch .slide_container {
-	box-sizing: border-box;
-	position: relative;
-	text-align: center;
-	max-width: 730px;
+.slideshow_container {
+	max-width: 1000px;
 	position: relative;
 	margin: auto;
-	display: flex;
-	overflow-x: scroll;
-	gap: 10px;
+	margin-top: 20px;
 }
 
 .slides {
-	width: 200%;
+	display: none;
 }
 
-
-.shiftbutton {
+/* Next & previous kanpper */
+.prev,
+.next {
+	cursor: pointer;
 	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 10px;
+	color: #2b2b2b;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
 }
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+	background-color: rgba(237, 246, 249, 0.8);
+}
+
+
+
+.numbertext {
+	color: #2b2b2b;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+
+.fade {
+	animation-name: fade;
+	animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+	from {
+		opacity: .4
+	}
+
+	to {
+		opacity: 1
+	}
+}
+
+@keyframes fade {
+	from {
+		opacity: .4
+	}
+
+	to {
+		opacity: 1
+	}
+}
+
+#prototype {
+	position: relative;
+	top: 20em;
+}
+
+video {
+	width: 70%;
+}
+
+#webp {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	margin-bottom: 10vw;
+}
+
 
 footer {
-	top: 200vw;
+	top: 510em;
 }
 
 /*Tablet*/
-@media only screen and (min-width:600px) {}
+@media only screen and (min-width:600px) {
+	footer {
+		top: 880em;
+	}
+}
 
 
 /*Desktop*/
@@ -75,16 +170,142 @@ footer {
 		top: 35em;
 	}
 
+	/* Billede	Collage */
+	#ide {
+		top: 40em;
+		margin-left: 30px;
+	}
+
+	#collage {
+		margin-left: 50px;
+	}
+
+	#collage img {
+		width: 20%;
+	}
+
+	.image1 {
+		transform: rotate(-5deg);
+		margin-top: 79px;
+		margin-left: 15px;
+	}
+
+	.image2 {
+		transform: rotate(5deg);
+		margin-top: 345px;
+		margin-left: 400px;
+	}
+
+	.image3 {
+		transform: rotate(-20deg);
+		margin-top: 500px;
+		margin-left: 700px;
+		z-index: 1;
+	}
+
+	.image4 {
+		transform: rotate(-15deg);
+		margin-top: 270px;
+		margin-left: 35px;
+
+	}
+
+	.image5 {
+		transform: rotate(0deg);
+		margin-top: 0px;
+		margin-left: 550px;
+	}
+
+	.image6 {
+		transform: rotate(10deg);
+		margin-top: 100px;
+		margin-left: 775px;
+
+	}
+
+	.image7 {
+		transform: rotate(5deg);
+		margin-top: 50px;
+		margin-left: 270px;
+
+	}
+
+	.image8 {
+		transform: rotate(-10deg);
+		margin-top: 300px;
+		margin-left: 155px;
+	}
+
+	.image9 {
+		transform: rotate(0deg);
+		margin-top: 143px;
+		margin-left: 289px;
+	}
+
+	.image10 {
+		transform: rotate(-5deg);
+		margin-top: 230px;
+		margin-left: 965px;
+	}
+
+	.image11 {
+		transform: rotate(10deg);
+		margin-top: 440px;
+		margin-left: 900px;
+	}
+
+	.image12 {
+		transform: rotate(-5deg);
+		margin-top: 130px;
+		margin-left: 415px;
+	}
+
+	.image13 {
+		transform: rotate(5deg);
+		margin-top: 300px;
+		margin-left: 600px;
+
+	}
+
+	#collage .billede {
+		position: absolute;
+	}
+
+	.billede:hover {
+		transform: scale(2);
+		z-index: 1;
+	}
+
 	#pitch {
-		top: 45em;
+		top: 100em;
+		display: flex;
+	}
+
+	#pitch h2 {
+		margin-left: 30px;
 	}
 
 	#pitch .slides {
-		width: 300%;
+		width: 100%;
 	}
 
-	#pitch .slide_container {
-		max-width: 730px;
+	#pitch img {
+		align-content: center;
+	}
 
+	.slideshow_container {
+		margin-top: 4em;
+	}
+
+	#prototype {
+		top: 110em;
+	}
+
+	video {
+		width: 30%;
+	}
+
+	footer {
+		top: 220em;
 	}
 }

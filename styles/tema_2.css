@@ -1,18 +1,45 @@
 #section_1 {
-	background-image: url("../img/tema2.png");
+	background-image: url("../img/leaf.png");
 	position: absolute;
 	background-size: cover;
-	width: 100%;
-	height: 50%;
-	filter: grayscale(1);
 }
 
 h1 {
 	color: #f0f0f2;
 }
 
+#opening {
+	position: relative;
+	top: 20em;
+}
+
+#opening p {
+	padding: 20px;
+	font-size: 14px;
+	;
+}
+
+
+
 #temaer .two {
 	font-style: oblique;
+}
+
+#websitet {
+	position: relative;
+	top: 30em;
+
+
+}
+
+#video_web {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10vw;
+}
+
+video {
+	width: 90%;
 }
 
 /*
