@@ -154,11 +154,6 @@ footer {
 		margin-bottom: 2rem;
 	}
 
-	#opening {
-		display: grid;
-		grid-template-columns: 2fr 1fr;
-		grid-template-areas: 1fr;
-	}
 
 	.tekst {
 		grid-column-start: 2;
