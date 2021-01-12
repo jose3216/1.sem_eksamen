@@ -52,7 +52,7 @@
 
 }
 
-button {
+.button {
 	margin-left: 20px;
 }
 
@@ -95,7 +95,7 @@ footer {
 		top: 35vw;
 	}
 
-	button {
+	.button {
 		margin-left: 45vw;
 	}
 

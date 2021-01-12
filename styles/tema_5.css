@@ -75,11 +75,9 @@
 	justify-content: center;
 }
 
-button {
-	display: flex;
+.button {
 	position: relative;
 	margin-top: 40rem;
-	justify-content: center;
 }
 
 .box1 {
@@ -172,9 +170,8 @@ video {
 			justify-content: center;
 		}
 
-		button {
+		.button {
 			margin-top: 45rem;
-
 			margin-left: 45vw;
 		}
 
