@@ -57,7 +57,7 @@ section {
 	margin: auto 0;
 }
 
-button {
+.button {
 	background-color: #c6a375;
 	border: none;
 	border-radius: 25px;
@@ -68,7 +68,7 @@ button {
 	display: inline-block;
 }
 
-button a {
+.button a {
 	color: #2b2b2b;
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
