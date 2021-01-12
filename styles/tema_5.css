@@ -1,13 +1,116 @@
-#section_1 {
-	background-image: url("../img/tema5.png");
-	position: absolute;
-	background-size: cover;
-	width: 100%;
-	height: 50%;
-	background-position: 50% 100%;
-	filter: grayscale(1);
+#temaer {
+	position: relative;
+	top: 10rem;
 }
 
 #temaer .five {
 	font-style: oblique;
 }
+
+
+
+/*Redesign videoer*/
+#aurelia {
+	position: relative;
+	margin-top: 20rem;
+}
+
+#aurelia .container {
+	position: relative;
+	margin-top: 2rem;
+	display: flex;
+	flex-direction: column;
+}
+
+#aurelia_before {
+	position: absolute;
+	margin-top: 0rem;
+	background-color: rgba(221, 190, 161);
+	align-items: center;
+}
+
+#aurelia_before h2 {
+	position: relative;
+	margin-top: -1rem;
+	text-align: center;
+
+}
+
+#aurelia_before h2:hover {
+	transform: scale(2);
+}
+
+#aurelia_before .video_before {
+	display: flex;
+	justify-content: center;
+}
+
+#aurelia_after {
+	position: absolute;
+	margin-top: 0rem;
+	background-color: rgba(221, 190, 161);
+	align-items: center;
+}
+
+#aurelia_after h2 {
+	position: relative;
+	margin-top: -1rem;
+	text-align: center;
+}
+
+#aurelia_after h2:hover {
+	transform: scale(2);
+}
+
+#aurelia_after .video_after {
+	display: flex;
+	justify-content: center;
+}
+
+button {
+	position: relative;
+	margin-top: 20rem;
+	display: flex;
+	justify-content: center;
+}
+
+.box1 {
+	position: absolute;
+	background-color: rgba(221, 190, 161);
+	width: 90%;
+	height: 40%;
+	padding: 50px;
+	z-index: -1;
+	margin-top: 10rem;
+}
+
+video {
+	width: 90%;
+	padding-bottom: 20px;
+}
+
+/*Tablet*/
+@media only screen and (min-width:600px) {
+
+
+	video {
+		width: 50%;
+	}
+
+	/*Desktop*/
+	@media only screen and (min-width: 800px) {
+
+		video {
+			width: 30%;
+		}
+
+		.box1 {
+			position: absolute;
+			background-color: rgba(221, 190, 161);
+			width: 70%;
+			height: 40%;
+			padding: 50px;
+			z-index: -1;
+			margin-top: 10rem;
+		}
+	}
