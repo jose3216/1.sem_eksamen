@@ -1,13 +1,11 @@
-h1 {
-	margin-top: -10vw;
-	margin-bottom: 10vw;
-}
-
 #skills {
 	padding-top: 10vw;
 	padding-bottom: 10vw;
 }
 
+#skills h2 {
+	text-align: center;
+}
 
 #skills .sectionwrapper {
 	display: flex;
@@ -19,14 +17,16 @@ h1 {
 
 figure {
 	flex-grow: 1;
-	flex-basis: 50%;
+	flex-basis: 30%;
 	flex-shrink: 0;
+
 }
 
 #skills .sectionwrapper figure {
 	background-color: #e6d9bc;
 	border-radius: 15px;
 	padding: 10px;
+
 }
 
 #skills .sectionwrapper p {
@@ -37,28 +37,27 @@ figure {
 }
 
 #skills figure img {
-	width: 31vw;
-	height: 37vw;
-	padding-left: 30px;
+	width: 15vw;
+	height: 18vw;
 	padding-bottom: 10px;
+	padding-left: 35px;
 
 }
 
-.pil {
-	width: 6vw;
-	height: 6vw;
-	position: relative;
-	top: -22vw;
-	left: 94vw;
-}
+/*Section om Jose*/
 
 #om_jose {
+	position: relative;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-auto-rows: 1fr;
 	grid-gap: 5px;
+	margin-top: 20rem;
 }
 
+#om_jose h2 {
+	padding-left: 0;
+}
 
 #jose_profil {
 	transform: scaleX(-1);
@@ -70,4 +69,82 @@ figure {
 #teskt {
 	grid-column-start: 2;
 	grid-column-end: 3;
+	padding-left: 2px;
+}
+
+.box2 {
+	position: absolute;
+	background-color: rgba(221, 190, 161);
+	width: 70%;
+	height: 10%;
+	padding: 30px;
+	z-index: -1;
+	margin-top: 20rem;
+	margin-left: 5rem;
+}
+
+#beskrivelse {
+	top: 0;
+}
+
+#beskrivelse .oppe {
+	padding-bottom: -10px;
+}
+
+#beskrivelse p {
+	padding-bottom: 10px;
+}
+
+#beskrivelse .nedeh {
+	text-align: center;
+	padding: 20px;
+
+}
+
+@media only screen and (min-width: 600px) {
+	#om_jose {
+		margin-top: 25rem;
+	}
+
+	.box2 {
+		margin-top: 25rem;
+		width: 80%;
+	}
+}
+
+@media only screen and (min-width: 800px) {
+	figure {
+		flex-grow: 1;
+		flex-basis: 20%;
+		flex-shrink: 0;
+
+	}
+
+	#om_jose {
+		margin-top: 27rem;
+	}
+
+	#jose_profil img {
+		margin-left: 4rem;
+	}
+
+	.box2 {
+		margin-top: 26rem;
+		height: 20%;
+	}
+
+	#tekst {
+		padding-left: 10px;
+	}
+
+	#beskrivelse {
+		top: 0;
+		padding-bottom: 40px;
+	}
+
+	#beskrivelse .nedeh {
+		padding-top: 6em;
+	}
+
+	footer {}
 }

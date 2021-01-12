@@ -41,6 +41,7 @@
 #spil {
 	position: relative;
 	top: 25rem;
+	padding-bottom: 40px;
 }
 
 #vid_spil {
@@ -99,6 +100,6 @@ footer {
 	}
 
 	footer {
-		top: 250rem;
+		top: 260rem;
 	}
 }

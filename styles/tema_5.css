@@ -29,6 +29,7 @@
 #aurelia {
 	position: relative;
 	margin-top: 20rem;
+	margin-bottom: 40px;
 }
 
 .skrift2 {
@@ -185,7 +186,4 @@ video {
 			margin-top: 10rem;
 		}
 
-		footer {
-			top: 90rem;
-		}
 	}

@@ -153,6 +153,7 @@ nav {
 	visibility: hidden;
 }
 
+/*Tema-beskrivelses box*/
 #beskrivelse {
 	position: relative;
 	margin: 20px;
@@ -296,10 +297,11 @@ footer p {
 	#beskrivelse {
 		top: 15rem;
 		grid-template-columns: 400px 400px;
-		grid-gap: 40px;
+		grid-column-gap: 40px;
 		margin-left: 110px;
 		margin-right: 110px;
-		padding: 70px;
+		padding: 55px;
+		padding-bottom: 15px;
 	}
 
 
