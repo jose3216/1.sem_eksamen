@@ -151,7 +151,7 @@ footer {
 
 	/* Billede	Collage */
 	#ide {
-		top: 40em;
+		top: 20em;
 	}
 
 	#collage {
@@ -255,7 +255,7 @@ footer {
 	}
 
 	#pitch {
-		top: 100em;
+		top: 70em;
 		display: flex;
 	}
 
@@ -273,7 +273,7 @@ footer {
 	}
 
 	#prototype {
-		top: 110em;
+		top: 85em;
 	}
 
 	video {
@@ -291,6 +291,6 @@ footer {
 	}
 
 	footer {
-		top: 250rem;
+		top: 235rem;
 	}
 }

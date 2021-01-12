@@ -133,10 +133,6 @@ footer {
 
 @media only screen and (min-width: 800px) {
 
-	#websitet {
-		top: 20rem;
-	}
-
 	#websitet .container {
 		position: relative;
 		margin-top: 2rem;
@@ -185,7 +181,7 @@ footer {
 	}
 
 	footer {
-		top: 220vw;
+		top: 180rem;
 	}
 
 
