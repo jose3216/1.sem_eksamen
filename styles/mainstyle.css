@@ -174,6 +174,9 @@ nav {
 }
 
 /*Temaer*/
+#temaer {
+	top: 15rem;
+}
 
 #temaer li {
 	position: relative;
@@ -287,7 +290,7 @@ footer p {
 	}
 
 	#temaer {
-		top: 20rem;
+		top: 22rem;
 	}
 
 	#beskrivelse {

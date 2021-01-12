@@ -18,7 +18,6 @@ button {
 
 #temaer {
 	position: relative;
-	top: 15em;
 }
 
 #temaer .two {
@@ -106,12 +105,10 @@ footer {
 		padding-right: 400px;
 	}
 
-	#temaer {
-		top: 18em;
-	}
+
 
 	#websitet {
-		top: 22em;
+		top: 25rem;
 	}
 
 	#opening {
