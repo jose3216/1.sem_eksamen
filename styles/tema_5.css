@@ -1,3 +1,7 @@
+.hide {
+	visibility: hidden;
+}
+
 #temaer {
 	position: relative;
 	top: 10rem;
@@ -15,11 +19,9 @@
 	margin-top: 20rem;
 }
 
-#aurelia .container {
+.skrift2 {
 	position: relative;
-	margin-top: 2rem;
-	display: flex;
-	flex-direction: column;
+	margin-bottom: 40px;
 }
 
 #aurelia_before {
@@ -36,10 +38,6 @@
 
 }
 
-#aurelia_before h2:hover {
-	transform: scale(2);
-}
-
 #aurelia_before .video_before {
 	display: flex;
 	justify-content: center;
@@ -47,7 +45,7 @@
 
 #aurelia_after {
 	position: absolute;
-	margin-top: 0rem;
+	margin-top: 20rem;
 	background-color: rgba(221, 190, 161);
 	align-items: center;
 }
@@ -58,9 +56,6 @@
 	text-align: center;
 }
 
-#aurelia_after h2:hover {
-	transform: scale(2);
-}
 
 #aurelia_after .video_after {
 	display: flex;
@@ -68,9 +63,9 @@
 }
 
 button {
-	position: relative;
-	margin-top: 20rem;
 	display: flex;
+	position: relative;
+	margin-top: 40rem;
 	justify-content: center;
 }
 
@@ -83,6 +78,8 @@ button {
 	z-index: -1;
 	margin-top: 10rem;
 }
+
+
 
 video {
 	width: 90%;
@@ -101,7 +98,65 @@ video {
 	@media only screen and (min-width: 800px) {
 
 		video {
-			width: 30%;
+			width: 80%;
+		}
+
+
+		#aurelia .container {
+			position: relative;
+			margin-top: 2rem;
+			display: flex;
+			flex-direction: column;
+		}
+
+		#aurelia_before {
+			padding: 20px;
+			margin-left: 100px;
+			margin-right: 100px;
+			margin-top: 0rem;
+			padding-bottom: 50px;
+		}
+
+		#aurelia_before h2 {
+			margin-top: -3rem;
+			font-size: 50px;
+			margin-bottom: 2rem;
+		}
+
+		#aurelia_before h2:hover {
+			transform: scale(2);
+		}
+
+		#aurelia_before .video_before {
+			display: flex;
+			justify-content: center;
+		}
+
+		#aurelia_after {
+			padding: 20px;
+			margin-left: 100px;
+			margin-right: 100px;
+			margin-top: 0rem;
+			padding-bottom: 50px;
+		}
+
+		#aurelia_after h2 {
+			margin-top: -3rem;
+			font-size: 50px;
+			margin-bottom: 2rem;
+		}
+
+		#aurelia_after h2:hover {
+			transform: scale(2);
+		}
+
+		#aurelia_after .video_after {
+			display: flex;
+			justify-content: center;
+		}
+
+		button {
+			margin-top: 45rem;
 		}
 
 		.box1 {
@@ -112,5 +167,9 @@ video {
 			padding: 50px;
 			z-index: -1;
 			margin-top: 10rem;
+		}
+
+		footer {
+			top: 90rem;
 		}
 	}
