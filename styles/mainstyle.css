@@ -66,7 +66,6 @@ button {
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	/*	font-size: 16px;*/
 }
 
 button a {
@@ -117,7 +116,7 @@ nav {
 }
 
 #burgermenu li a:hover {
-	color: #99bfbf;
+	color: #cb997e;
 }
 
 .on {
@@ -291,11 +290,11 @@ footer p {
 	}
 
 	#temaer {
-		top: 22rem;
+		margin-top: 10rem;
 	}
 
 	#beskrivelse {
-		top: 25rem;
+		top: 15rem;
 		grid-template-columns: 400px 400px;
 		grid-gap: 40px;
 		margin-left: 110px;
