@@ -11,7 +11,19 @@
 	font-style: oblique;
 }
 
+/*Pilotprojektet*/
+#pilotprojekt {
+	position: relative;
+	top: 20rem;
 
+}
+
+.vid_pilot {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
 
 /*Redesign videoer*/
 #aurelia {
@@ -96,6 +108,10 @@ video {
 
 	/*Desktop*/
 	@media only screen and (min-width: 800px) {
+
+		#pilotprojekt video {
+			width: 65%;
+		}
 
 		video {
 			width: 80%;

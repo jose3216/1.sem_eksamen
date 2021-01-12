@@ -175,6 +175,7 @@ nav {
 
 /*Temaer*/
 #temaer {
+	position: relative;
 	top: 15rem;
 }
 
