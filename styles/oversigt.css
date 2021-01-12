@@ -52,7 +52,7 @@ p {
 	margin-bottom: 50px;
 }
 
-.beskrivelse {
+.teksten {
 	margin-bottom: 20px;
 }
 
@@ -79,7 +79,7 @@ p {
 		grid-column-end: 2;
 	}
 
-	.beskrivelse {
+	.teksten {
 		position: relative;
 		top: 7vw;
 		grid-column-start: 2;
